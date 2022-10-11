@@ -8,33 +8,117 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
-
+    
 </head>
 <body>
-    <div class="col">
-        <i class="fa fa-github fa-2x"></i>
-        <h4>GITHUB</h4>
-      </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-3 "></div>
-        <div class="col-9">
+   <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+            <label for="Name"><h6>Name</h6></label><br>
             <div class="row">
-              <p class="offset-2 col-6 "> <span class="search">Search</span></p>
-            </div>
-            <div class="row">
-              <div class="col-2 offset-1"> </div>
-              <div class="col-2 offset-1"> </div>
-              <div class="col-2 offset-1"> </div>
-            </div>
-            <div class="row">
-              <div class="offset-1 col-10">
+              <div class="col-md-4">
+                <input type="text"required><br>
+                <small class="text-muted">First</small>
+              </div>
+              <div class="col-md-4">
+               <input type="text"><br>
+               <small class="text-muted">Last</small>
               </div>
             </div>
-          </div>
-        </div>
+         </div>
+         <div class="col-md-8">
+           <label for="Email"><h6>Email</h6></label><br>
+           <input type="text"Email><br>
+         </div>
+         <div class="col-md-6">
+           <label for="Experience"><h6>Your Experience</h6></label><br>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+         </div>
+         
+     </div>
+     <p>Overall how would you rate your experience with us?</p>
+     <h6>How satisfy are you with</h6>
+     <div class="container">
+       <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col">Very Unsatisfied</div>
+          <div class="col">Unsatisfied</div>
+          <div class="col">Neutral</div>
+          <div class="col">Satisfied</div>
+          <div class="col">Very Satisfied</div>
+       </div>
+       <div class="row">
+         <div class="col-sm-2">Purchase</div>
+         <div class="col"><input type="radio" class="rad"></div>
+         <div class="col"><input type="radio" class="rad"></div>
+         <div class="col"><input type="radio" class="rad"></div>
+         <div class="col"><input type="radio" class="rad"></div>
+         <div class="col"><input type="radio" class="rad"></div>
+       </div>
+       <div class="row">
+          <div class="col-sm-2">Service</div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
       </div>
-    
+      <div class="row">
+          <div class="col-sm-2">Company Overall</div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+          <div class="col"><input type="radio" class="rad"></div>
+      </div><br>
+   <h6>How likely are you to</h6>
+   <div class="container">
+    <div class="row">
+       <div class="col-sm-2"></div>
+       <div class="col">Very Unsatisfied</div>
+       <div class="col">Unsatisfied</div>
+       <div class="col">Neutral</div>
+       <div class="col">Satisfied</div>
+       <div class="col">Very Satisfied</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">Buy from us again</div>
+      <div class="col"><input type="radio" class="rad"></div>
+      <div class="col"><input type="radio" class="rad"></div>
+      <div class="col"><input type="radio" class="rad"></div>
+      <div class="col"><input type="radio" class="rad"></div>
+      <div class="col"><input type="radio" class="rad"></div>
+    </div>
+    <div class="row">
+       <div class="col-sm-2">Recommend our product to others</div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+   </div>
+   <div class="row">
+       <div class="col-sm-2">Recommend our company to others</div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+       <div class="col"><input type="radio" class="rad"></div>
+   </div><br>
+
+     
+   </div>
+
+   <h5 class="none"> Additional comments or suggestions </h5>
+
+    <textarea class="textarea"></textarea>
+
+    <br>
+    <button type="button">Submit</button>
+   
 </body>
 </html>
